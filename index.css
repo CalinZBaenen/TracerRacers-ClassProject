@@ -1,0 +1,42 @@
+canvas {
+	/* Border and corners. */
+	border-color:black;
+	border-style:solid;
+	border-width:2px;
+	
+	/* Color. */
+	background-color:black;
+	color:white;
+	
+	/* Graphics. */
+	-ms-interpolation-mode:nearest-neighbor;
+	-webkit-image-rendering:pixelated;
+	-moz-image-rendering:pixelated;
+	image-rendering:pixelated;
+	
+	/* Size and position. */
+	height:45vh;
+	width:45vw;
+}
+
+img {
+	/* Graphics. */
+	-ms-interpolation-mode:nearest-neighbor;
+	-webkit-image-rendering:pixelated;
+	-moz-image-rendering:pixelated;
+	image-rendering:pixelated;
+}
+
+
+
+
+
+.hidden {
+	visibility:hidden;
+	
+	max-height:0ox;
+	max-width:0px;
+	position:absolute;
+	left:0;
+	top:0;
+}
